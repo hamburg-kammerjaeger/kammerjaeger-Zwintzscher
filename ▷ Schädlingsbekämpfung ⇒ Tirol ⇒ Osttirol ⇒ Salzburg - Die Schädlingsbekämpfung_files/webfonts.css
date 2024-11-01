@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../../theme/webfonts/open-sans-v15-latin/open-sans-v15-latin-regular.woff2') format('woff2');
+    src: url('../../theme/webfonts/open-sans-v15-latin/open-sans-v15-latin-regular.woff') format('woff');
+    src: url('../../theme/webfonts/open-sans-v15-latin/open-sans-v15-latin-regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../theme/webfonts/montserrat-v12-latin/montserrat-v12-latin-700.woff2') format('woff2');
+    src: url('../../theme/webfonts/montserrat-v12-latin/montserrat-v12-latin-700.woff') format('woff');
+    src: url('../../theme/webfonts/montserrat-v12-latin/montserrat-v12-latin-700.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../../theme/webfonts/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

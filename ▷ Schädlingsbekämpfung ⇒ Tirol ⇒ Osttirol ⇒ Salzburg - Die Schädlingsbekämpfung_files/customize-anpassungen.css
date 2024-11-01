@@ -1,0 +1,69 @@
+/**
+ * =============================================================================
+ * Anpassungen in diese Datei - Adjustments to this file
+ * ==========================================================================
+ */
+ .mainmenu ul li span.new {
+     font-size: 0.9em;
+     font-weight: bold;
+     margin-left: 5px;
+     background: red;
+     color: #fff;
+     border-radius: 2px;
+     padding-left: 4px;
+     padding-right: 4px;
+     float: right;
+ }
+
+ .submenulr ul li span.new,
+ .customNavi-lr span.new {
+     display: none;
+ }
+
+/* fuer alle Geraete-Klassen */
+
+.myClass p {
+    color: #ff0000;
+}
+
+
+/* fuer tablets und groessere Displays*/
+@media only screen and (min-width:768px) {
+
+.myClass p {
+    color: #00ff99;
+}
+
+}
+
+
+/* fuer tablets und groessere Displays*/
+@media only screen and (min-width:992px) {
+
+.home .ctsquicklinks.links {
+    margin-top: -80px;
+}
+
+}
+
+/* fuer desktop */
+@media only screen and (min-width:1025px) {
+
+.myClass p {
+    color: #0800ff;
+}
+
+.home .ctsquicklinks.links {
+    margin-top: -120px;
+}
+
+}
+
+
+/* fuer Smartphones */
+@media only screen and (max-width:767px) {
+
+
+
+
+}
